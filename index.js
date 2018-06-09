@@ -7,6 +7,10 @@ return string.toLowerCase()
 }
 
 function logShout(string) {
-console.log (string.toUpperCase())
+
+console.log (shout())
 }
 
+function logWhisper(string) {
+console.log (whisper())
+}
