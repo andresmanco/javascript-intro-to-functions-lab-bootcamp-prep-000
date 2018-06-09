@@ -7,10 +7,10 @@ return string.toLowerCase()
 }
 
 function logShout(string) {
-
-console.log (shout())
+console.log (shout(string))
 }
 
 function logWhisper(string) {
-console.log (whisper())
+console.log (whisper(string))
 }
+
